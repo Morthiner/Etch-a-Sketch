@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #474c50;
+    color: white;
+
+}
+
+.container {
+    display:flex;
+    margin-top: 32px;
+    gap: 5px;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    background: #474c50;
+    justify-content: center
+}
+
+.squareStyle {
+    display: flex;
+    flex: 1 1 0;
+    border: .5px solid white;
+    
+}
+
+.rowStyle {
+    display:flex;
+    gap: 5px;
+    flex: 1 1 0;
+
+}
