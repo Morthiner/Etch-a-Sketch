@@ -28,8 +28,8 @@ function addDiv(y) {
 function hover() {
     let square = document.querySelectorAll(".squareStyle");
     square.forEach((square)  => {
-        square.addEventListener('mouseover', (event) => {
-            event.target.style.background = "white";
+        square.addEventListener('mousedown', (event) => {
+            event.target.style.background = "black";
         })
     })
 }
